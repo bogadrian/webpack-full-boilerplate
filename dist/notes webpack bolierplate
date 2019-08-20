@@ -1,0 +1,7 @@
+The boilerplate webpack contains a branch all configuration as I need them at my stage. 
+It contains babel, babael polyfil, boostarp library, jquery and popper.js which boostrap needs; contains moment.js, uuidv4 library. 
+contains a commentd css suplimentary file. 
+all the dependecy and folders are setup. 
+when starting a new project, just take notes of what you need, and then clear the library you don't need and run npm install. 
+then, there are two main optin: npm run start which does not create files in dist folder but starts the dev server and all the files are created virtual. you can find them in source console. 
+second, when all is ready run npm run build and all the final product is printed in dist folder, minifyed and functional. 
